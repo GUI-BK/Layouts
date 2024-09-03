@@ -1,0 +1,62 @@
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/sorvete.webp);
+}
+header h1{
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 125px;
+}
+main{
+    display: grid;
+    width: 100%;
+    height: 800px;
+    grid-template-rows: 100px 100px 100px 100px;
+}
+main h1{
+    padding-left: 30px;
+    font-size: 50px;
+}
+main p{
+    padding-left: 30px;
+    font-size: 25px;
+}
+main .Image{
+    width: 90%;
+    height: 125px;
+}
+footer{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: auto auto auto;
+    background-color: brown;
+}
+footer section{
+    width: 100%;
+    height: 400px;
+}
+footer section h1{
+    text-align: center;
+    font-size: 30px;
+}
+footer section p{
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+footer section .Image{
+    width: 200px;
+    height: 200px;
+    padding-left: 30px;
+}
