@@ -1,0 +1,46 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    align-content: center;
+    background-image: url(https://cdn.awsli.com.br/1000x5000/2485/2485118/arquivos/racas.jpg);
+}
+header h1{
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+main img{
+    width: 90%;
+    height: 200px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+}
+section{
+    width: 30%;
+    height: auto;
+    border: 1px black solid;
+}
+section img{
+    width: 100%;
+    height: 100px;
+}
+
+
+
+
